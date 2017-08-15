@@ -22272,16 +22272,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "E:\\ProyectsPD\\ConvertTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.UWP\\ConverterTemperature.UWP.csproj",
+      "projectUniqueName": "E:\\ProyectsPD\\ConverterTemperatureXF\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.UWP\\ConverterTemperature.UWP.csproj",
       "projectName": "ConverterTemperature.UWP",
-      "projectPath": "E:\\ProyectsPD\\ConvertTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.UWP\\ConverterTemperature.UWP.csproj",
-      "projectJsonPath": "E:\\ProyectsPD\\ConvertTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.UWP\\project.json",
+      "projectPath": "E:\\ProyectsPD\\ConverterTemperatureXF\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.UWP\\ConverterTemperature.UWP.csproj",
+      "projectJsonPath": "E:\\ProyectsPD\\ConverterTemperatureXF\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "E:\\ProyectsPD\\ConvertTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.csproj": {
-              "projectPath": "E:\\ProyectsPD\\ConvertTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.csproj"
+            "E:\\ProyectsPD\\ConverterTemperatureXF\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.csproj": {
+              "projectPath": "E:\\ProyectsPD\\ConverterTemperatureXF\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature\\ConverterTemperature.csproj"
             }
           }
         }
