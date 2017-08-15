@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="ConverterTemperature.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ConverterTemperature.UWP"
+    RequestedTheme="Light">
+
+</Application>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConverterTemperature.Views.MainPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    <ContentPage.Content>
+        <StackLayout 
+            Padding="10,40,10,10">
+                <Label 
+                    Text="{Binding titleLabel, Mode=TwoWay}" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"
+                      />
+                <Label></Label>
+
+                <Label
+                    Text="{Binding textOneLabel, Mode=TwoWay}" 
+                    TextColor="Black"
+                 />
+
+                <Entry
+                   Text="{Binding gradeOneEntry, Mode=TwoWay}" 
+
+                ></Entry>
+                <Button 
+                    Command="{Binding convertCommand}"
+                    Text="converter!"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                ></Button>
+
+                <Button 
+                    Command="{Binding invertCommand}"
+                    Text="Swap!"
+                    AnchorY="60"
+                    AnchorX="60"
+                    BackgroundColor="Black"
+                    TextColor="White"                     
+                ></Button>
+
+                <Label>
+                    
+                </Label>
+
+                <Label 
+                    Text="{Binding textTwoLabel, Mode=TwoWay}" 
+                    TextColor="Black"
+                 />
+
+                <Entry
+                   Text="{Binding gradeTwoEntry, Mode=TwoWay}" 
+                   IsEnabled="false"
+                   TextColor="Black"
+                ></Entry>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
